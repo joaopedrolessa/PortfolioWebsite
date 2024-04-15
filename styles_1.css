@@ -1,0 +1,142 @@
+:root{
+    --cor-iluminacao: #ea9f2d;
+    --cor-fonte: #f0e6ef;
+    --cor-background-variacao: #172a45;
+    --cor-fonte-variacao: #3066be;
+    --cor-background: #0a192f;
+}
+*{
+    color: var(--cor-fonte);
+    font-family: 'Roboto Serif', serif;
+}
+
+body{
+    background-color: var(--cor-background);
+    
+}
+
+nav {
+    background-color: var(--cor-background-variacao);
+    padding: 0.5rem;
+    text-align: center;
+    width: auto;
+
+}
+
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li {
+    display: inline-flex;
+
+}
+
+nav ol li a {
+    color: var(--cor-fonte);
+    text-decoration: none;
+    padding: 1rem 5rem;
+    font-family: 'Roboto Serif', serif;
+    font-family: 'Roboto Serif', serif;
+    font-size: 2rem;
+
+}
+
+nav ol li a:hover {
+    background-color: var(--cor-iluminacao);
+}
+
+header {
+    background-color: var(--cor-primaria);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0rem 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+  }
+  
+
+h1{
+    font-size: 2.5rem;
+    margin: 0;
+    
+}
+
+main{
+    display: block;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding: 5rem;
+}
+
+section{
+    background-color: var(--cor-background-variacao);
+    padding: 2rem;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    box-shadow: 0rem 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+h2{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+p{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    margin: 0;
+}
+
+ul{
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+}
+
+li{
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: var(--cor-background-variacao);
+    padding: 0.5rem ;
+    width: auto;
+    text-align: center;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem;
+
+}
+
+#footer_social_media .footer_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: var(--cor-b);
+    text-decoration: none;   
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    
+}
+
+#twitter{
+    background-color: #00acee;
+}
+
+#behance{
+    background-color: #053eff;
+}
+
+#linkedin{
+    background-color: #0e76a8;
+}
