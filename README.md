@@ -1,6 +1,6 @@
 # João Pedro Lessa — Portfólio
 
-Aplicação Next.js com TypeScript e Tailwind CSS que preserva a versão visual e o conteúdo aprovados em `preview/`.
+Portfólio profissional desenvolvido com Next.js, TypeScript e Tailwind CSS.
 
 ## Executar
 
@@ -25,8 +25,7 @@ pnpm start
 - `src/content/`: projetos, estudos de caso e experiência em arquivos JSON versionados.
 - `src/lib/`: configurações do site, filtros e geometria animada com partículas e paralaxe.
 - `public/assets/`: currículo final, fonte Inter e ícones.
-- `tests/`: regressão dos textos aprovados, filtros e integridade do currículo.
-- `preview/`: referência estática aprovada, preservada para comparação.
+- `tests/`: filtros, estudos de caso e validação do currículo público.
 
 ## Decisões
 
@@ -55,7 +54,7 @@ pnpm test
 pnpm build
 ```
 
-O GitHub Actions executa as quatro verificações. A revisão visual deve comparar a aplicação com a prévia em desktop e celular, incluindo filtros, terminal, estudos de caso, currículo e expansão/recolhimento da experiência.
+O GitHub Actions executa as quatro verificações. A revisão visual deve abranger desktop e celular, incluindo filtros, terminal, estudos de caso, currículo e expansão/recolhimento da experiência.
 
 ## Vercel
 

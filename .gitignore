@@ -7,3 +7,7 @@ out/
 .vercel/
 playwright-report/
 test-results/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
