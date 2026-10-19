@@ -1,0 +1,51 @@
+{
+  "company": "Dataprev",
+  "role": "Estagiário de TI",
+  "area": "Conformidade Tecnológica, Automação e Dados",
+  "period": "Outubro de 2023 – Outubro de 2025",
+  "summary": "Desenvolvi automações com Python, Pandas e Selenium, atuei em processos de ETL e análise de dados e participei da construção de soluções para conformidade tecnológica.",
+  "metrics": [
+    {
+      "title": "Horas → segundos/minutos",
+      "description": "Redução do tempo de execução de processos anteriormente manuais."
+    },
+    {
+      "title": "200 mil+",
+      "description": "Registros processados em determinadas execuções de ETL."
+    }
+  ],
+  "technologies": [
+    "Python",
+    "Pandas",
+    "Selenium",
+    "SQL",
+    "QlikView",
+    "Excel",
+    "SharePoint",
+    "ServiceNow",
+    "Postman",
+    "Git"
+  ],
+  "activities": [
+    {
+      "title": "Automação de processos",
+      "description": "Desenvolvi automações utilizando Python, Pandas e Selenium para coleta, tratamento, comparação e validação de dados. Entre as soluções, implementei a comparação de informações provenientes de quatro planilhas, aplicando regras de validação para apoiar o acompanhamento da conformidade tecnológica de ativos de TI."
+    },
+    {
+      "title": "Tratamento de dados e ETL",
+      "description": "Realizei processos de extração, transformação e consolidação de dados, incluindo execuções com mais de 200 mil registros e trabalhos envolvendo aproximadamente sete anos de informações históricas."
+    },
+    {
+      "title": "Dashboards e análise de dados",
+      "description": "Participei da construção de dashboards corporativos utilizando QlikView, realizando tratamento, transformação e cruzamento de informações. Também utilizei SQL para consultas e análises relacionadas ao acompanhamento de ativos e conformidade tecnológica."
+    },
+    {
+      "title": "Acompanhamento de incidentes",
+      "description": "Desenvolvi uma solução para automatizar a importação de relatórios, acompanhar tickets abertos e concluídos, consultar históricos de incidentes por equipamento e gerar indicadores para acompanhamento gerencial."
+    },
+    {
+      "title": "Análise de APIs e integrações",
+      "description": "Avaliei a viabilidade de integração com APIs do ServiceNow, utilizando Postman para testar endpoints e analisar as informações disponibilizadas para possível utilização pela equipe."
+    }
+  ]
+}

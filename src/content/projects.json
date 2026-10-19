@@ -1,0 +1,53 @@
+[
+  {
+    "id": "vet",
+    "className": "project featured",
+    "categories": [
+      "fullstack"
+    ],
+    "search": "vetdash saas typescript nextjs postgres",
+    "status": "Em produção",
+    "statusClass": "project-status",
+    "name": "VetDash",
+    "technologies": [
+      "TypeScript",
+      "Next.js",
+      "PostgreSQL"
+    ],
+    "description": "Plataforma SaaS para gestão de atendimentos veterinários, prontuários, vacinas e prescrições. Desenvolvida e mantida integralmente por mim, com foco na operação de um produto real em produção."
+  },
+  {
+    "id": "ai",
+    "className": "project",
+    "categories": [
+      "backend"
+    ],
+    "search": "ai sales assistant python fastapi rag ia",
+    "status": "Código público",
+    "statusClass": "project-status public",
+    "name": "AI Sales Assistant",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "RAG"
+    ],
+    "description": "Assistente de vendas com IA generativa e arquitetura RAG, que utiliza busca semântica para responder perguntas com base em informações de produtos."
+  },
+  {
+    "id": "ecommerce",
+    "className": "project developing",
+    "categories": [
+      "cloud",
+      "backend"
+    ],
+    "search": "ecommerce e-commerce net aws csharp cloud",
+    "status": "Em desenvolvimento",
+    "statusClass": "project-status progress",
+    "name": "E-commerce",
+    "technologies": [
+      "C#/.NET",
+      "AWS"
+    ],
+    "description": "Estudo de backend e cloud. APIs REST e Clean Architecture no escopo planejado."
+  }
+]

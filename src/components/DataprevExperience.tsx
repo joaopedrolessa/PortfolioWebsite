@@ -1,0 +1,7 @@
+'use client';
+import {useState} from 'react';
+import experience from '@/content/experience.json';
+export function DataprevExperience(){
+ const [expanded,setExpanded]=useState(false);
+ return <div className="dataprev-experience"><div className="experience-label"><h3>{experience.company}</h3><p className="dataprev-role">{experience.role}</p><p className="dataprev-area">{experience.area}</p><p className="dataprev-period">{experience.period}</p></div><p className="dataprev-summary">{experience.summary}</p><div className="dataprev-metrics">{experience.metrics.map(metric=><div key={metric.title}><strong>{metric.title}</strong><p>{metric.description}</p></div>)}</div><div className="dataprev-tech-summary"><h4>Tecnologias utilizadas</h4><div className="tags dataprev-technologies">{experience.technologies.map(tech=><span key={tech}>{tech}</span>)}</div></div><button id="dataprev-toggle" className="button secondary" type="button" aria-expanded={expanded} aria-controls="dataprev-details" onClick={()=>setExpanded(value=>!value)}><span className="toggle-label">{expanded?'Ocultar detalhes':'Ver detalhes da experiência'}</span><span className="toggle-indicator" aria-hidden="true">⌄</span></button><div id="dataprev-details" hidden={!expanded}><h4>Principais atividades e entregas</h4>{experience.activities.map(activity=><div className="dataprev-activity" key={activity.title}><h5>{activity.title}</h5><p>{activity.description}</p></div>)}</div></div>
+}

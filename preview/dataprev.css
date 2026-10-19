@@ -1,0 +1,37 @@
+.dataprev-experience{grid-column:2;grid-row:2 / span 2;min-width:0}
+.dataprev-experience .experience-label{margin:0;padding:0;border:0}
+.dataprev-experience .experience-label h3{margin:0 0 8px;font-size:23px}
+.dataprev-role{font-size:14px;color:#e7dfee;margin:0 0 4px}
+.dataprev-area,.dataprev-period{font-size:12px;color:#99929f;line-height:1.8;margin:0 0 4px}
+.dataprev-summary{font-size:14px;color:#aaa6b1;line-height:1.9;margin:22px 0}
+.dataprev-metrics{display:grid;grid-template-columns:1.35fr 1fr;gap:22px;margin:28px 0}
+.dataprev-metrics>div{border-left:1px solid #40334f;padding:5px 0 5px 16px}
+.dataprev-metrics strong{display:block;font-size:17px;line-height:1.55;font-weight:600;color:#e7dfee}
+.dataprev-metrics p{font-size:12px;line-height:1.8;color:#99929f;margin:9px 0 0}
+#dataprev-toggle{font-size:12px;gap:22px;margin-top:2px}
+.toggle-indicator{font-size:18px;line-height:1;transition:transform .18s ease}
+#dataprev-toggle[aria-expanded=true] .toggle-indicator{transform:rotate(180deg)}
+#dataprev-details{padding-top:28px}
+#dataprev-details h4{font-size:17px;line-height:1.5;font-weight:600;letter-spacing:-.2px;margin:0 0 23px}
+.dataprev-activity{margin-bottom:23px}
+#dataprev-details h5{font-size:14px;line-height:1.6;font-weight:600;color:#e7dfee;margin:0 0 7px}
+.dataprev-activity p{font-size:13px;color:#aaa6b1;line-height:1.9;margin:0}
+.dataprev-technologies{gap:7px}
+.dataprev-technologies span{font-size:10px;padding:3px 8px}
+@media(max-width:760px){.dataprev-experience{margin-top:30px}.dataprev-metrics{gap:20px;grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.dataprev-metrics{grid-template-columns:1fr;gap:18px}.dataprev-metrics strong{font-size:18px}#dataprev-toggle{max-width:100%;font-size:11px}}
+@media(prefers-reduced-motion:reduce){.toggle-indicator{transition:none}}
+
+.dataprev-tech-summary{margin:25px 0}.dataprev-tech-summary h4{font-size:14px;font-weight:600;line-height:1.5;margin:0 0 12px;color:#e7dfee}
+
+/* Give the introduction and the longer work history their own layout rows. */
+.about{display:block}
+.about-copy{max-width:850px;margin-bottom:44px}
+.dataprev-experience{display:grid;grid-template-columns:minmax(200px,.72fr) minmax(0,1.28fr);column-gap:64px;align-items:start}
+.dataprev-experience .experience-label{grid-column:1;grid-row:1 / span 2}
+.dataprev-summary{grid-column:2;grid-row:1;margin:0 0 24px}
+.dataprev-metrics{grid-column:2;grid-row:2;margin:0 0 26px}
+.dataprev-tech-summary{grid-column:1/-1;margin:5px 0 24px}
+#dataprev-toggle{grid-column:1/-1;justify-self:start;margin:0}
+#dataprev-details{grid-column:1/-1;max-width:900px;padding-top:32px}
+@media(max-width:760px){.about-copy{margin-bottom:32px}.dataprev-experience{display:block;margin-top:0}.dataprev-summary{margin:22px 0}.dataprev-metrics{margin:25px 0}.dataprev-tech-summary{margin:25px 0}}
